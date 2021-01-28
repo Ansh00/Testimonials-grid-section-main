@@ -135,6 +135,44 @@ body {
   }
 
 
+
+
+
   /*media quires 2*/
 
+
+
+
+
+ @media only screen and (min-width: 1100px){
+    .grid-container{
+      margin-top: 100px;
+      max-width: 1200px;
+      grid-template-areas: 'one one one two five'
+                            'three four four four five';
+      grid-gap: 35px;
+    }
+  
+    .one{
+      background-position: 390px 0;
+      grid-area: one;
+    }
+  
+    .two{
+      grid-area: two;
+    }
+  
+    .three{
+      grid-area: three;
+    }
+  
+    .four{
+      grid-area: four;
+    }
+  
+    .five{
+      grid-area: five;
+    }
+  
+  }
 
